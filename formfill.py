@@ -49,6 +49,6 @@ pass_box = driver.find_element_by_name('password')# Send password
 pass_box.send_keys('my_password')# Find login button
 
 
-# Click the login
+# Click the login button
 login_button = driver.find_element_by_name('submit')# Click login
 login_button.click()
