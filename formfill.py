@@ -23,26 +23,26 @@ driver = webdriver.Chrome()# Open the website
 driver.get('https://canvas.case.edu')
 
 # LOGGING IN
-# Select the ID 
+
+## Select the ID 
 id_box = driver.find_element_by_id('username')
 
-# Send id information
+## Send id information
 id_box.send_keys('my_username')
 
-# Find password box
+## Find password box
 pass_box = driver.find_element_by_name('password')# Send password
 pass_box.send_keys('my_password')# Find login button
 
-# Click the login
+## Click the login
 login_button = driver.find_element_by_name('submit')# Click login
 login_button.click()
 
-#Script for Repeated form filling
-#Name
+# Script for Repeated form filling
+
+# Name
 pass_box = driver.find_element_by_name('id_name')# Send password
 pass_box.send_keys(df[1,1])# Find login button
-
-
 
 #find a field and fill in data
 pass_box = driver.find_element_by_name('password')# Send password
