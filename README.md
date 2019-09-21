@@ -6,7 +6,7 @@ Python 3.7
 ## Libraries used
 
 Selenium webdriver
-Pandas for data import
+Pandas for Data Import
 
 
 ## Functions
